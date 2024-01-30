@@ -5,6 +5,9 @@ De elementen in de <body> staan horizontaal in het midden van de webpagina en he
 De inhoud van de header, <body> en footer hebben een padding van minimaal 5 pixels.
 Zorg voor een werkende koppeling naar dit CSS-bestand in het <head>-gedeelte van uw HTML-bestanden. */
 
+* { 
+    background-color: white;}
+
 body {
     margin: 0;
     padding: 0;
