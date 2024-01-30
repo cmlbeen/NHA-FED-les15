@@ -1,46 +1,42 @@
-
-<!DOCTYPE html> /* zelfde opmaak en indeling als index Het contactformulier bevat minimaal de invoervelden Voornaam, 
-Achternaam, E-mailadres en Bericht. Ook is er een verzendknop, die in actieve staat een andere vormgeving heeft. */
-<html>
-    <head>
-        <meta http-equiv="content-language" content="nl-nl">
-        <meta charset="utf-8">
-        <meta name="description" content="Huiswerkopdracht les 15"> 
-        <meta name="keywords" content="les,nha,fed,css,lijsten">
-        <meta name="author" content="Chloë Been">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Huiswerkopdracht les 15</title>
-        </head>
+<!DOCTYPE html> 
+<html lang="nl">
+<head>
+    <meta http-equiv="content-language" content="nl-nl">
+    <meta charset="utf-8">
+    <meta name="description" content="Huiswerkopdracht les 15"> 
+    <meta name="keywords" content="les,nha,fed,css,lijsten">
+    <meta name="author" content="Chloë Been">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Huiswerkopdracht les 15</title>
+</head>
 <body>
+
 <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="mijncv.html">Mijn CV</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="mijncv.html">Mijn CV</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 </header>
-<p>
-      <h1>Contactformulier</h1>
 
-    <form action="file:///Users/chloebeen/Desktop/bit-academy/HTML/06-level/sign_up.html?name=student" method="GET">
-        <label for="voornaam">Voornaam:</label>
-        <input type="text" id="voornaam" name="voornaam" placeholder="Jan">
-        <label for="achternaam">Achternaam:</label>
-        <input type="text" id="achternaam" name="achternaam" placeholder="Bakker">
-        <label for="email">Emailadres:</label>
-        <input type="email" id="email" name="email" placeholder="janbakker@hotmail.nl">
-        <label for="telefoon">Telefoonnummer:</label>
-        <input type="number" id="telefoon" name="telefoon" placeholder="Telefoonnummer">
-        <label for="opmerking">Opmerking:</label>
-        <textarea id="opmerking" name="opmerking" rows="4" cols="50">
-        </textarea>
-        <input type="submit" id="verzenden" value="Verzenden">
-    </form>
+<h1>Contactformulier</h1>
 
-</p>
+<form action="jouw_server_url" method="GET">
+    <label for="voornaam">Voornaam:</label>
+    <input type="text" id="voornaam" name="voornaam" placeholder="Jan">
+    <label for="achternaam">Achternaam:</label>
+    <input type="text" id="achternaam" name="achternaam" placeholder="Bakker">
+    <label for="email">Emailadres:</label>
+    <input type="email" id="email" name="email" placeholder="janbakker@hotmail.nl">
+    <label for="telefoon">Telefoonnummer:</label>
+    <input type="number" id="telefoon" name="telefoon" placeholder="Telefoonnummer">
+    <label for="opmerking">Opmerking:</label>
+    <textarea id="opmerking" name="opmerking" rows="4" cols="50"></textarea>
+    <input type="submit" id="verzenden" value="Verzenden">
+</form>
     
 <footer>
-     <p>&copy; 2024 Chloë Been. Alle rechten voorbehouden.</p>
+    <p>&copy; 2024 Chloë Been. Alle rechten voorbehouden.</p>
 </footer>
 
 </body>
