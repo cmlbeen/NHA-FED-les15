@@ -1,3 +1,9 @@
+/* Schrijf uw CSS-code in een afzonderlijk CSS-bestand. Deze code moet voldoen aan de volgende voorwaarden:
+
+De gehele pagina heeft één achtergrondkleur, met uitzondering van de elementen in de <body> (die hebben andere kleuren).
+De elementen in de <body> staan horizontaal in het midden van de webpagina en hebben witruimte (marge) aan de linker- en rechterzijde.
+De inhoud van de header, <body> en footer hebben een padding van minimaal 5 pixels.
+Zorg voor een werkende koppeling naar dit CSS-bestand in het <head>-gedeelte van uw HTML-bestanden. */
 
 *{background-color: cyan;}
 
