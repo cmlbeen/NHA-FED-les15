@@ -6,7 +6,7 @@ De inhoud van de header, <body> en footer hebben een padding van minimaal 5 pixe
 Zorg voor een werkende koppeling naar dit CSS-bestand in het <head>-gedeelte van uw HTML-bestanden. */
 
 * { 
-    background-color: white;}
+    background-color: cream;}
 
 body {
     margin: 0;
