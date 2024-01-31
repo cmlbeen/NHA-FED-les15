@@ -33,6 +33,7 @@ header {
 
 nav {
     display: flex;
+    color: #000
 }
 
 a {
