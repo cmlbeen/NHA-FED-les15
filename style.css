@@ -15,7 +15,7 @@ body {
     padding: 5px;
 }
 
-form-container {
+.container form {
     width: 300px;
     box-sizing: border-box;
     padding: 5px;
