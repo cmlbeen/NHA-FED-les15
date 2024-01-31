@@ -13,6 +13,8 @@
 
 form {
     display:block;
+    width: 300px;
+    box-sizing:border-box;
 }
 
 header {
